@@ -1,0 +1,105 @@
+div#container {
+    background-color: #F1F1F1;
+    margin: auto;
+    max-width: 1024px;
+}
+
+body {
+    margin: 0px;
+}
+
+div#header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* The navbar container */
+.topnav {
+    display: flex;
+    background-color: #333;
+    max-width: 992px;
+    margin: auto;
+    padding: 14px 16px;
+    justify-content: space-between;
+}
+
+/* Navbar links */
+.topnav div a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #F1F1F1;
+    color: black;
+}
+
+.right {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.left {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+/* Row */
+.row {
+    display: flex;
+}
+
+/* Column */
+div#column1 {
+    width: 33.33%;
+}
+
+div#column2 {
+    width: 33.33%;
+}
+
+div#column3 {
+    width: 33.33%;
+}
+
+@media screen and (max-width: 800px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    div#column1 {
+        width: 50%;
+    }
+
+    div#column2 {
+        width: 50%;
+    }
+
+    div#column3 {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the three */
+@media screen and (max-width: 480px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row>div {
+        width: 100%;
+    }
+}

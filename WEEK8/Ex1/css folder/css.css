@@ -1,0 +1,76 @@
+.topnav {
+    display: flex;
+    background-color: #cecece;
+    max-width: 1024px;
+    margin: auto;
+    padding: 14px 16px;
+    justify-content: space-between;
+}
+
+/* Navbar links */
+.topnav div a {
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: -60px;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.right {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.left {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    max-width: 1057px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.center {
+    position: absolute;
+    width: 100%;
+    top: 39%;
+    text-align: center;
+    font-size: 18px;
+
+
+}
+
+.bottomright {
+    position: absolute;
+    border: 2px solid #000000;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+}
+
+img.cxk {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
